@@ -23,7 +23,7 @@ const authReducer = (state:AuthState, action:AuthAction) : AuthState => {
 
 export const Login = () => {
 
-    const [state, dispatch] = useReducer(authReducer, initialState);
+    const [state, dispatch] = useReducer(authReducer , initialState);
   return (
     <>
     <h3>Login</h3>
